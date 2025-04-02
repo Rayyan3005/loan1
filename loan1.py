@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 st.title('Loan Approval')
-model= joblib.load('loan_data.joblib')
+model= joblib.load('loan_data1.joblib')
 gender= st.number_input('Enter gender (M:0,F:1)')
 married= st.number_input('Enter marital status (M:1,UM:0)')
 income= st.number_input('Enter applicant income in thousands')
